@@ -4,3 +4,77 @@
  cookie image is linked, but feel free to use your own if you want!
  (card) box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
 */
+
+
+body {
+  background: #ecf0f1;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #FFFFFF;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
+  width: 900px;
+  height: 650px;
+  margin: 50px;
+}
+
+/* ---------cookie banner---------------- */
+.banner {
+  background-image:url("images/cookies.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30%;
+
+}
+
+.cookie-img {
+  width: 100%;
+}
+
+/* ------Recipe title------------- */
+
+.recipe-title h1 {
+  font-size: 1.9em;
+  margin-bottom: 0;
+  margin-left: 25px;
+}
+
+
+ .recipe-title p {
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 25px;
+}
+
+/* ------------Ingredients and Directions boxes------------------ */
+
+.recipe-container {
+  display: flex;
+}
+
+.recipe-container h1 {
+  font-size: 1.5em;
+  margin: 0px 0 20px 25px;
+}
+
+.ingredients {
+  flex: 1;
+}
+
+.directions {
+  flex: 1;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+dt {
+  font-weight: bold;
+}
